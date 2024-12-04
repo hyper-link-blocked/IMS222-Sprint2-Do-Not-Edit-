@@ -1,0 +1,62 @@
+.open {
+    margin-top: 2em;
+}
+
+.img1, .video-container {
+
+    margin: .25em;
+    border: 2px solid #f00;
+}
+
+#info1 {
+    font-size: 1.1em;
+
+}
+
+.info,
+.info2 {
+    background-color: black;
+    margin-top: 8em;
+    color: #fff;
+    position: relative;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.info2 {
+    margin-top: 3em;
+}
+
+section {
+    background-color: black;
+    margin-top: 3em;
+    color: #fff;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    background: #d50000;
+    width: 200px border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+section ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    list-style-type: none;
+}
+
+section ol a {
+    color: #f00;
+}
+
+section li {
+    margin-top: 1em;
+}
+

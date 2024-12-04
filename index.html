@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Mindscape</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function() {
+            $('.slider').slider({
+                indicators: false,
+                height: 600,
+                duration: 800,
+                interval: 5000
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <nav id="top">
+        <div class="nav-wrapper black">
+            <a href="index.html" class="brand-logo"><p class="flow-text" style="margin: 0">Miami <span class="red-text text-accent-4">Mindscape</span></p></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="current" href="index.html">HOME</a></li>
+                <li><a href="information.html">INFORMATION</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav black" id="mobile-demo">
+        <li><a class="white-text current" href="index.html">HOME</a></li>
+        <li><a class="white-text" href="information.html">INFORMATION</a></li>
+        <li><a class="white-text" href="faq.html">FAQ</a></li>
+        <li><a class="white-text" href="about.html">ABOUT</a></li>
+        <li><a class="white-text" href="contact.html">CONTACT</a></li>
+    </ul>
+
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/sliderFrontImage.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Upgrading the World!</h3>
+                    <h5 class="light grey-text text-lighten-3">One sceptic at a time.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/slideLookingRight.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Looking to Incorporate VR into Your Business?</h3>
+                    <h5 class="light grey-text text-lighten-3">We'll be there to help at every step.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/sliderLookingLeft.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>VR isn't Just for Games!</h3>
+                    <h5 class="light grey-text text-lighten-3">Even the military uses it for training.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/sliderLastImage.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Have Questions?</h3>
+                    <h5 class="light grey-text text-lighten-3">Then you're in the right place.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8 l6 black accent-4">
+                    <h1 class="white-text text-accent-4"> VR Information<br><span class="red-text text-accent-4">And Consulting</span></h1>
+                    <p class="white-text">We're a Virtual Reality company based out of Oxford, Ohio. <br>There's tons of information logged on our site and we're always<br> open to answering questions!</p>
+                </div>
+                <div class="col s6 m3 l4 offset-s3 offset-m1 offset-l2 black">
+                    <div class="form  home-form">
+                        <h4 class="red accent-4 white-text flow-text center" style="padding-bottom: 4px">Login Here</h4>
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <input type="password" name="" placeholder="Enter Password Here">
+                        <a class="waves-effect waves-light btn-large red accent-4" href="">Login</a>
+                    </div>
+                    <div class="center white-text">
+                        <p class="">Don't have an account?<br>
+                            <a href="#">Sign Up Here</a>
+                            <p />
+                        <p class="">Log in with</p>
+                        <div class="icons">
+
+                            <a href="#">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-google"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-skype"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12 red accent-4">
+                    <ul class="collection with-header">
+                        <li class="collection-header black">
+                           <!-- I used collections as my CSS component-->
+                            <h4 class="red-text text-accent-4">Contributors</h4>
+                        </li>
+                        <li class="collection-item black">Brown, Conner</li>
+                        <li class="collection-item black">Dean, Zack</li>
+                        <li class="collection-item black">Kesterson, Jack</li>
+                        <li class="collection-item black">Shannon, Ava</li>
+                        <li class="collection-item black">Stout, Ethan</li>
+                        <li class="collection-item black">Phipps, Elijah</li>
+                    </ul>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="red-text text-accent-4">Tired of Scrolling?</h5>
+                    <ul>
+                        <li><a class="white-text" href="#top">Back to Top</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container red-text text-accent-4">
+                © 2024 Miami Mindscape
+                <a class="white-text right" href="information.html">More Information</a>
+            </div>
+        </div>
+    </footer>
+</body></html>
